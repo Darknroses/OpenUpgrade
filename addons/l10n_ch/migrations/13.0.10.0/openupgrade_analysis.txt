@@ -32,7 +32,7 @@ DEL account.account.tag: l10n_ch.vat_tag_405
 DEL account.account.tag: l10n_ch.vat_tag_410
 DEL account.account.tag: l10n_ch.vat_tag_415
 DEL account.account.tag: l10n_ch.vat_tag_420
-DEL account.account.tag: l10n_ch.vat_tag_dedouanement
+# DEL account.account.tag: l10n_ch.vat_tag_dedouanement
 NEW account.account.template: l10n_ch.ch_coa_1101
 NEW account.tax.report.line: l10n_ch.account_tax_report_line_calc_impot
 NEW account.tax.report.line: l10n_ch.account_tax_report_line_calc_impot_base
