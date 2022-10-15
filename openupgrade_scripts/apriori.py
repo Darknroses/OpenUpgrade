@@ -64,7 +64,14 @@ merged_modules = {
     "pos_cash_rounding": "point_of_sale",
     "pos_kitchen_printer": "pos_restaurant",
     "pos_reprint": "point_of_sale",
+    "theme_default": "website",
     "website_theme_install": "website",
+    # odoo/design-themes
+    "theme_graphene_blog": "theme_graphene",
+    # odoo/enterprise
+    "hr_holidays_gantt_calendar": "hr_holidays_gantt",
+    # OCA/intrastat-extrastat
+    "hs_code_link": "product_harmonized_system_delivery",
     # OCA/event
     "website_event_questions_free_text": "website_event_questions",
     # OCA/margin-analysis
@@ -72,15 +79,15 @@ merged_modules = {
     # OCA/partner-contact
     "base_vat_sanitized": "base_vat",
     "partner_bank_active": "base",
-    # OCA/sale-reporting
-    "report_qweb_pdf_fixed_column": "web",
-    # OCA/stock-logistics-warehouse
-    "stock_inventory_include_exhausted": "stock",
     # OCA/project
     "project_description": "project",
     "project_stage_closed": "project",
+    # OCA/sale-reporting
+    "report_qweb_pdf_fixed_column": "web",
     # OCA/sale-workflow
     "sale_order_price_recalculation": "sale",
+    # OCA/stock-logistics-warehouse
+    "stock_inventory_include_exhausted": "stock",
     # OCA/survey
     "survey_description": "survey",
     # OCA/web
