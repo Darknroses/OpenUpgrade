@@ -15,10 +15,10 @@ renamed_modules = {
     "account_bank_statement_import_bypass_check": "account_statement_import_bypass_check",  # noqa: B950
     "account_bank_statement_clear_partner": "account_statement_clear_partner",
     "account_bank_statement_import_camt_details": "account_statement_import_camt_details",  # noqa: B950
-    "account_bank_statement_import_camt_oca": "account_statement_import_camt_oca",
+    "account_bank_statement_import_camt_oca": "account_statement_import_camt",
     "account_bank_statement_import_move_line": "account_statement_import_move_line",
     "account_bank_statement_import_mt940_base": "account_statement_import_mt940_base",
-    "account_bank_statement_import_oca_camt54": "account_statement_import_oca_camt54",
+    "account_bank_statement_import_oca_camt54": "account_statement_import_camt54",
     "account_bank_statement_import_ofx": "account_statement_import_ofx",
     "account_bank_statement_import_online": "account_statement_import_online",
     "account_bank_statement_import_online_paypal": "account_statement_import_online_paypal",  # noqa: B950
@@ -30,6 +30,8 @@ renamed_modules = {
     "account_bank_statement_import_save_file": "account_statement_import_save_file",
     "account_bank_statement_import_transfer_move": "account_statement_import_transfer_move",  # noqa: B950
     "account_bank_statement_import_txt_xlsx": "account_statement_import_txt_xlsx",
+    # OCA/e-commerce
+    "website_sale_attribute_filter_category": "website_sale_product_attribute_filter_category",  # noqa: B950
     # OCA/edi
     "account_e-invoice_generate": "account_einvoice_generate",
     "edi": "edi_oca",
@@ -37,6 +39,13 @@ renamed_modules = {
     "edi_backend_partner": "edi_backend_partner_oca",
     "edi_exchange_template": "edi_exchange_template_oca",
     "edi_storage": "edi_storage_oca",
+    "edi_voxel": "edi_voxel_oca",
+    "edi_voxel_account_invoice": "edi_voxel_account_invoice_oca",
+    "edi_voxel_sale_order_import": "edi_voxel_sale_order_import_oca",
+    "edi_voxel_sale_secondary_unit": "edi_voxel_sale_secondary_unit_oca",
+    "edi_voxel_secondary_unit": "edi_voxel_secondary_unit_oca",
+    "edi_voxel_stock_picking": "edi_voxel_stock_picking_oca",
+    "edi_voxel_stock_picking_secondary_unit": "edi_voxel_stock_picking_secondary_unit_oca",  # noqa: B950
     "edi_webservice": "edi_webservice_oca",
     "edi_xml": "edi_xml_oca",
     # OCA/l10n-spain
@@ -82,18 +91,20 @@ merged_modules = {
     # OCA/project
     "project_description": "project",
     "project_stage_closed": "project",
+    # OCA/reporting-engine
+    "bi_sql_editor_aggregate": "bi_sql_editor",
     # OCA/sale-reporting
     "report_qweb_pdf_fixed_column": "web",
     # OCA/sale-workflow
     "sale_order_price_recalculation": "sale",
     # OCA/stock-logistics-warehouse
     "stock_inventory_include_exhausted": "stock",
-    # OCA/survey
-    "survey_description": "survey",
     # OCA/web
     "web_editor_background_color": "web_editor",
     # OCA/website
     "website_cookie_notice": "website",
+    "website_form_recaptcha": "website_form",
+    "website_crm_recaptcha": "website_form",
     # OCA/...
 }
 
